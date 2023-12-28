@@ -1,2 +1,2 @@
 # flying-pig-framework
-This is indie framework for testing wired logic.
+This is an indie Java framework building up weird things.
