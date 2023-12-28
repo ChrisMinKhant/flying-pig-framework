@@ -1,12 +1,13 @@
 package org.example;
 
-import org.apache.catalina.LifecycleException;
-import org.example.app.Application;
-import org.example.app.implementation.ApplicationImplementation;
+import org.example.app.server.Server;
+import org.example.app.server.impl.ServerImpl;
 
-public class Main {
-    public static void main(String[] args) throws LifecycleException {
-        Application application = new ApplicationImplementation();
-        application.init();
+import java.io.IOException;
+
+public abstract class Main {
+    public static void main(String[] args) throws IOException {
+        Server server = new ServerImpl(8080);
+        server.start();
     }
 }

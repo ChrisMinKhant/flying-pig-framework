@@ -6,7 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Caddy_Test" />
+        <module name="flying-pig" />
+        <module name="Flying_Pig" />
       </profile>
     </annotationProcessing>
   </component>
